@@ -10,6 +10,7 @@ void print1(int n)
         }
         cout << endl;
     }
+    
 }
 void print2(int n)
 {
