@@ -9,7 +9,7 @@ void print1(int n)
             cout << "* ";
         }
         cout << endl;
-    }
+    } 
 }
 void print2(int n)
 {
