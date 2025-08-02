@@ -11,6 +11,5 @@ public:
          n= n/10;
        }
        return  original==sum;
-
-    }
+ }
 };
