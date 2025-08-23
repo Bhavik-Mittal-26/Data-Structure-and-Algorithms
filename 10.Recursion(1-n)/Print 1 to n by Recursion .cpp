@@ -7,8 +7,8 @@ public:
         if (n == 0) {
             return; // base case
         }
-        printNumbers(n - 1); // pehle chhote number print karega
-        cout << n << endl;   // fir current number print karega
+        printNumbers(n - 1); 
+        cout << n << endl;   
     }
 };
 
