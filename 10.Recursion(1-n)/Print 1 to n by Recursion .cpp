@@ -7,7 +7,7 @@ public:
         if (n == 0) {
             return; // base case
         }
-        printNumbers(n - 1); 
+        printNumbers(n - 1);  // for  n to 1 we will first cout then fuction 
         cout << n << endl;   
     }
 };
