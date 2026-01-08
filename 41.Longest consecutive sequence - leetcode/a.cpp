@@ -45,12 +45,12 @@ public:
         }
 
         // Final check in case the longest sequence ends at the last element
-        return max(longest, current);
+        return max( longest,current);
     }
 };
 int main(){
     Solution s;
-    vector<int>nums = {1,2,34,3,6,76,5};
+    vector<int>nums = {1,2,7,8,4};
     cout<<s.longestConsecutive(nums);
 return 0;
 
