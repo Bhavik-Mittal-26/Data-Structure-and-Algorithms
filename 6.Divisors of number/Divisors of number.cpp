@@ -1,4 +1,6 @@
-class Solution {
+#include <bits/stdc++.h>
+using namespace std;
+ class Solution {
 public:
     vector<int> divisors(int n) {
         vector<int> result; // To store divisors
