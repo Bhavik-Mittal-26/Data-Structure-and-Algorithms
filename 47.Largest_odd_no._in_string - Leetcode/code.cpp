@@ -14,7 +14,7 @@ Return substring from 0 to that index */
             }
         }
         return "";
-    }
+   }
 };
 int main(){
     Solution s;
