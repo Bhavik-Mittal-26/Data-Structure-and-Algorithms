@@ -15,6 +15,7 @@ public:
     }
 };
 
+
 void printList(ListNode* head) {
     while (head != NULL) {
         cout << head->val << " -> ";
@@ -22,6 +23,15 @@ void printList(ListNode* head) {
     }
     cout << "NULL" << endl;
 }
+int lengthofll(ListNode* head){    //for the length of link list 
+    int count = 0;
+    while (head != NULL) {
+        count++;
+        head = head->next;
+    }
+    return count;
+}
+
 
 int main() {
     ListNode* head = new ListNode(4);
@@ -37,6 +47,8 @@ int main() {
 
     cout << "After Deletion: ";
     printList(head);
+
+    cout<<lengthofll(head); 
 
     return 0;
 }
