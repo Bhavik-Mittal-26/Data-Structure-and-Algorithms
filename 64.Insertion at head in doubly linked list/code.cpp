@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class ListNode {
 public:
     int data;
     ListNode *prev;
     ListNode *next;
-
     ListNode() : data(0), prev(nullptr), next(nullptr) {}
     ListNode(int x) : data(x), prev(nullptr), next(nullptr) {}
     ListNode(int x, ListNode *prev, ListNode *next) : data(x), prev(prev), next(next) {}
@@ -31,7 +29,6 @@ void printList(ListNode* head) {
     }
     cout << endl;
 }
-
 int main() {
     ListNode* head = new ListNode(1);
     head->next = new ListNode(2);
