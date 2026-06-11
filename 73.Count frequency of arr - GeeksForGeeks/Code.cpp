@@ -28,5 +28,6 @@ int main() {
         cout << ans[i][0] << " " << ans[i][1] << endl;
     }
 
+
     return 0;
 }
