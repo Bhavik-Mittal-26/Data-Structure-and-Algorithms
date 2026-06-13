@@ -16,4 +16,5 @@ int main() {
     cout << arr[n - 1];
 
     return 0;
+
 }
