@@ -8,11 +8,10 @@ public:
         long long ans = 0;
         int sign = 1;
 
-        // Skip leading spaces
+        
         while (i < s.size() && s[i] == ' ')
             i++;
 
-        // Check sign
         if (i < s.size()) {
             if (s[i] == '-') {
                 sign = -1;
@@ -23,7 +22,6 @@ public:
             }
         }
 
-        // Read digits
         while (i < s.size()) {
             if (s[i] >= '0' && s[i] <= '9') {
                 ans = ans * 10 + (s[i] - '0');
