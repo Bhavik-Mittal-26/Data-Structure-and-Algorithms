@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int beautySum(string s) {
@@ -25,3 +27,11 @@ public:
         return ans;
     }
 };
+int main(){
+    Solution S;
+    string s ="aabcb";
+    S.beautySum(s);
+    cout<<S.beautySum(s);
+    return 0 ;
+
+}
