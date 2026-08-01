@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minPairSum(vector<int>& nums) {
+       // by input we can observe that we can find the pairs like largest plus smallest then second largest and second smallest ...... 
 
         sort(begin(nums), end(nums));
 
