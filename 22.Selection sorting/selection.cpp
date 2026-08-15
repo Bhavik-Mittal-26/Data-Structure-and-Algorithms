@@ -11,6 +11,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
     }
+    int temp=0;
 
     // Selection Sort
     for(int i = 0; i < n - 1; i++) {
@@ -18,7 +19,9 @@ int main() {
         for(int j = i; j < n; j++) {
 
             if(arr[j] < arr[i]) {
-                swap(arr[i], arr[j]);
+                int temp = arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
             }
         }
     }
